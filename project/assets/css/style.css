@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
+
+ul{
+    list-style: none;
+}
+
+.headerBox{
+    padding:1.5rem 0;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:700;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a{
+    margin-left: .5rem;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+    color:tomato;
+}
+
+.bannerPicture{
+    width: 100%;
+    border:3px solid #f4f4f4;
+    padding:3px;
+    border-radius: 1rem;
+}
+
+.about{
+    padding:3rem 0;
+}
+
+.titleBox{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.aboutTitle{
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: .75rem;
+}
+
+.aboutText{
+    max-width: 43rem;
+    margin: 0 auto;
+}
+
+.cardArea{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.aboutCard{
+    text-align: center;
+    border:1px solid #ddd;
+    border-radius: .75rem;
+    flex-basis: 32%;
+    padding:1.25rem .75rem;
+    transition: 1s;
+}
+
+.aboutCard:hover{
+    border-color: tomato;
+}
+}
+
+.aboutCard i{
+    border:1px solid #ddd;
+    padding:10px 12px;
+    font-size: 1.25rem;
+    border-radius: 50%;
+}
+
+.aboutCard h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    margin:1.5rem 0 .625rem;
+}
+
+.serviceSection{
+    background-color:#f4f4f4;
+    padding: 4rem 0;
+}
+
+.serviceTitle{
+    text-align: center;
+    margin-bottom:2.75rem;
+}
+
+.serviceTitle h4{
+    font-size: 2.25rem;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+}
+
+.serviceCard{
+    width: 30%;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.serviceCard h4{
+    text-align: center;
+    background-color: teal;
+    color:#fff;
+    font-size: 1.25rem;
+    padding:.75rem;
+    margin-bottom: .125rem;
+}
+
+.serviceCard img{
+    width:100%;
+}
+
+.serviceCard a{
+    background-color: tomato;
+    color:#fff;
+    padding:.5rem 1.75rem;
+    display: inline-block;
+    margin-top: 1.25rem;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.serviceCard a:hover{
+    background-color: teal;
+}
