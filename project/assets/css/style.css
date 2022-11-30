@@ -201,11 +201,14 @@ ul{
 .contact{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    padding-left: 2rem;
 }
 
 .contactForm{
     width: 60%;
     margin-right: 2rem;
+    margin-top:2.25rem;
 }
 
 .contactForm input, .contactForm textarea {
@@ -214,3 +217,47 @@ ul{
     padding:.75rem;
     margin-bottom: 1rem;
 }
+
+.contactForm input[type='submit']{
+    background-color: tomato;
+    color:#fff;
+    border:0;
+    font-size:1.25rem;
+    font-weight:500;
+}
+
+.singleContact{
+    display: flex;
+    align-items: center;
+    margin-bottom:1.25rem;
+}
+
+.singleContact i{
+    background-color: tomato;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.singleContact h4{
+    text-transform: capitalize;
+    font-size:1.25rem;
+}
+
+.singleContact h4 span{
+    display:block;
+    font-weight:400;
+    font-size: 1rem;
+}
+
+.footerArea{
+    background-color: teal;
+    text-align: center;
+    color: #fff;
+    padding:1rem;
+}
+
