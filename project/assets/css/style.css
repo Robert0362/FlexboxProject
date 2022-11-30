@@ -101,7 +101,6 @@ ul{
 .aboutCard:hover{
     border-color: tomato;
 }
-}
 
 .aboutCard i{
     border:1px solid #ddd;
@@ -122,12 +121,12 @@ ul{
     padding: 4rem 0;
 }
 
-.serviceTitle{
+.sectionTitle{
     text-align: center;
     margin-bottom:2.75rem;
 }
 
-.serviceTitle h4{
+.sectionTitle h4{
     font-size: 2.25rem;
 }
 
@@ -169,4 +168,49 @@ ul{
 
 .serviceCard a:hover{
     background-color: teal;
+}
+
+.galleryArea{
+    padding:4rem 0;
+}
+
+.gallery{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+.singleGallery{
+    flex-basis: 25%;
+}
+
+.singleGallery img{
+    width:100%;
+    border:1px solid #ddd;
+    padding:3px;
+    margin-bottom:1rem;
+}
+
+.contactArea{
+    background-color: #f4f4f4;
+    padding:3.75rem 0rem;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactForm{
+    width: 60%;
+    margin-right: 2rem;
+}
+
+.contactForm input, .contactForm textarea {
+    width: 100%;
+    border:1px solid #ddd;
+    padding:.75rem;
+    margin-bottom: 1rem;
 }
