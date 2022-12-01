@@ -18,7 +18,41 @@
         width:21.875rem;
     }
 
-    .header{
+    .header, .cardArea, .services{
         flex-direction: column;
+    }
+    
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .cardArea{
+        flex-direction: column;
+    }
+
+    .aboutCard{
+        margin-bottom: 1rem;
+        flex-basis: 100%;
+    }
+
+    .serviceCard{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .singleGallery{
+        flex-basis: 50%;
+    }
+
+    .contactForm{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .contactRight{
+        width: 100%;
     }
 }
