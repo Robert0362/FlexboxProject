@@ -5,7 +5,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+/* BASIC BODY FORMATTING  */
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -22,6 +22,7 @@ ul{
     list-style: none;
 }
 
+/* HEADER FORMATTING */
 .headerBox{
     padding:1.5rem 0;
 }
@@ -56,6 +57,7 @@ ul{
     color:tomato;
 }
 
+/* BANNER FORMAT */
 .bannerPicture{
     width: 100%;
     border:3px solid #f4f4f4;
@@ -116,6 +118,7 @@ ul{
     margin:1.5rem 0 .625rem;
 }
 
+/* SERVICE SECTION FORMATTING */
 .serviceSection{
     background-color:#f4f4f4;
     padding: 4rem 0;
@@ -170,6 +173,7 @@ ul{
     background-color: teal;
 }
 
+/* GALLERY FORMATTING */
 .galleryArea{
     padding:4rem 0;
 }
@@ -193,6 +197,7 @@ ul{
     margin-bottom:1rem;
 }
 
+/* CONTACT FORMATTING */
 .contactArea{
     background-color: #f4f4f4;
     padding:3.75rem 0rem;
@@ -254,6 +259,7 @@ ul{
     font-size: 1rem;
 }
 
+/* FOOTER FORMATTING */
 .footerArea{
     background-color: teal;
     text-align: center;
